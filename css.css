@@ -7,11 +7,11 @@ body{
   -webkit-box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
   box-shadow: 1px 2px 4px rgba(0, 0, 0, .5);
   padding: 10px;
-  background: #89ABE3FF;
+  background: #FCF6F5FF;
 }
 #boxshadow img {
   width: 100%;
-  border: 1px solid #89ABE3FF;
+  border: 1px solid #FCF6F5FF;
   border-style: inset;
 }
 
@@ -74,8 +74,8 @@ ul.topnav li.right {float: right;}
   cursor: pointer;
   -webkit-transition-duration: 0.4s;
   transition-duration: 0.4s;
-  width: 27%;
-  height: 12%;
+  width: 350px;
+  height: 70px;
 }
 .btn1:hover{
 box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),0 17px 50px 0 rgba(0,0,0,0.19);
@@ -117,7 +117,7 @@ box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 .infobox{
   display:inline-block;
   float:left;
-  height: 530;
+  height: 430;
   width: 570;
   background-color: green;
 }
@@ -125,7 +125,9 @@ box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 .infobox1{
   display:inline-block;
   float:right;
-  height: 530;
+  height: 430;
   width: 570;
   background-color: green;
 }
+
+
