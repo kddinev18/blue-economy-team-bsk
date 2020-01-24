@@ -51,9 +51,9 @@ ul.topnav li a {
   text-decoration: none;
 }
 
-ul.topnav li a:hover:not(.active) {background-color: rgb(100, 154, 241);}
+ul.topnav li a:hover:not(.active) {background-color: rgb(59, 123, 226);}
 
-ul.topnav li a.active {background-color: rgb(100, 154, 241);;}
+ul.topnav li a.active {background-color: rgb(59, 123, 226);}
 
 ul.topnav li.right {float: right;}
 
@@ -62,7 +62,7 @@ ul.topnav li.right {float: right;}
   ul.topnav li {float: none;}
 }
 .btn1 {
-  background-color: #4CAF50;
+  background-color: rgb(59, 123, 226);
   border: none;
   color: white;
   padding: 15px 32px;
@@ -91,7 +91,7 @@ box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 
 #airwater {
   display: none;
-  background: #2B3A42;
+  background: #FCF6F5FF;
 }
 
 #airwater1,
@@ -103,7 +103,7 @@ box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 
 #airwater1 {
   display: none;
-  background: #2B3A42;
+  background: #FCF6F5FF;
 }
 
 .textwaterair {
@@ -117,11 +117,15 @@ box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 .infobox{
   display:inline-block;
   float:left;
+  height: 530;
+  width: 570;
   background-color: green;
 }
 
 .infobox1{
   display:inline-block;
   float:right;
+  height: 530;
+  width: 570;
   background-color: green;
 }
