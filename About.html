@@ -7,7 +7,7 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script><!--the arrows that movw the pictures in the slideshow-->
 </head>
-<body style="background-color:#FCF6F5FF;">
+<body>
 
 <ul class="topnav"><!--nav bar-->
   <li><a href="index.html">Home</a></li>
@@ -15,8 +15,28 @@
   <li><a href="Energy.html">Energy</a></li>
   <li class="right"><a class="active" href="About.html">About</a></li>
 </ul>
+<h4><center>The main goals of our site are to educate people on the different types of pollution – air & water and how to get energy from them.</center></h4> 
+<h4> <center>If you have any questions, feel free to contact us using the contact form below 😊</center></h4>
+ <div class="container"><!--contact form-->
+  <form action="/action_page.php">
+    <label for="fname">First Name</label>
+    <input type="text" id="fname" name="firstname" placeholder="Your name..">
 
+    <label for="lname">Last Name</label>
+    <input type="text" id="lname" name="lastname" placeholder="Your last name..">
 
+    <label for="country">Country</label>
+    <select id="country" name="country">
+      <option value="australia">Bulgaria</option>
+      <option value="canada">Zimbabwe</option>
+      <option value="usa">United Kingdom</option>
+    </select>
 
+    <label for="subject">Subject</label>
+    <textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+    <input type="submit" value="Submit">
+  </form>
+</div>
 </body>
 </html>
